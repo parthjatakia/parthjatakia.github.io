@@ -1,5 +1,7 @@
 ---
-layout: default
+layout: page
+title: About
+permalink: /research/
 ---
 
 <!--<div id="gh-latest"></div>-->
