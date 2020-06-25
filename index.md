@@ -1,4 +1,7 @@
 ---
 layout: default
 ---
-Hi! Parth here. Site under construction.
+
+Hello
+
+![Test](/assets/images/dispic.jpg)
