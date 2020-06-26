@@ -45,7 +45,7 @@ google_analytics: UA-170830325-1
 
 # Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
 # Used for Sitemap.xml and your RSS feed
-url: https://www.parthjatakia.github.io
+url: https://parthjatakia.github.io
 enforce_ssl: http://www.parthjatakia.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
