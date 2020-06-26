@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-![Me]({{ site.baseurl }}/assets/images/myphoto.jpg){:width="400px"}
+![Me]({{ site.url }}/assets/images/myphoto.jpg){:width="400px"}
 
 My name is Parth Jatakia, and apparently, I am stuck at a transition point of being an undergraduate to being a Ph.D. student. I am planning to join Princeton as a Ph.D. student in this coming Fall. However, it seems coronavirus will most likely throw cold water on this plan and will cause me to defer by a semester. 
 
