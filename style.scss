@@ -27,6 +27,13 @@ img + em {
     font-size: 90%;
 }
 
+img + br + em {
+    font-style: normal;
+    display: inherit;
+    text-align: center;
+    font-size: 90%;
+}
+
 body {
   background: #fff;
   font-family: 'FuturaPTLight';
