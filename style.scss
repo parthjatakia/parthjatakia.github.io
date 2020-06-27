@@ -19,6 +19,14 @@ html {
   font-size: 100%;
 }
 
+/* for image caption */
+img + em {
+    font-style: normal;
+    display: inherit;
+    text-align: center;
+    font-size: 90%;
+}
+
 body {
   background: #fff;
   font-family: 'FuturaPTLight';

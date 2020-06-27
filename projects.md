@@ -10,45 +10,18 @@ permalink: /projects/
     {% if post.type == 'projects' %}
       <article class="post">
 
-        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        <h1 style="text-align:left;"><span style="text-align:left"><a href="{{ site.baseurl }}{{ post.url }}" style="text-align:left;">{{ post.title }}</a></span></h1>
 
         <div>
-          <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
+          <p class="post_date" style="text-align:left;">{{ post.when }}</p>
         </div>
 
         <div class="entry">
-          {{ post.excerpt }}
+          {{ post.summary }}
         </div>
 
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
       </article>
     {% endif %}
   {% endfor %}
 </div>
 
-<script>
-    /*var xmlhttp = new XMLHttpRequest();
-    var userMetaURL = "https://api.github.com/users/yourusername/events";
-    xmlhttp.onreadystatechange = function () {
-      if (this.readyState == 4 && this.status == 200) {
-        var userMeta = JSON.parse(this.responseText);
-
-        for(let i = 0; i < userMeta.length; i++){
-          if(userMeta[i].type == 'PushEvent'){
-            var commitURL = userMeta[i].payload.commits[0].url.replace('api.', '').replace('repos/', '').replace('commits', 'commit');
-            var projectURL = userMeta[i].repo.url.replace('api.', '').replace('repos/', '');
-            var commitMessage = userMeta[i].payload.commits[0].message;
-            var projectName = userMeta[i].repo.name;
-            var commitDate = new Date(userMeta[i].created_at).toDateString();
-
-            var ghLatestActivity = '<a class="chip yellow lighten-2">Latest commit</a>"' + '<a class="text-link" href="' + commitURL + '"' + '>' + commitMessage + '</a>' + '" at ' + '<a class="text-link" href="' + projectURL + '"' + '>' + projectName + '</a>' + ' on ' + commitDate + '.';
-
-            document.getElementById("gh-latest").innerHTML = ghLatestActivity;
-            break;
-          }
-        }
-      }
-    };
-    xmlhttp.open("GET", userMetaURL, true);
-    xmlhttp.send();*/
-  </script>
