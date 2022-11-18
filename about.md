@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-![Me]({{ site.url }}/assets/images/myphoto.jpg){:width="400px"}
+![Me]({{ site.url }}/assets/images/myphoto.jpg){:width="250px"}
 
 Welcome! I am Parth Jatakia.
 
