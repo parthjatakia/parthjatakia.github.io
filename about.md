@@ -12,6 +12,9 @@ I am a Ph.D. candidate at **Princeton University** in the Department of Electric
 
 I work on the **coherence challenge** and tackle it in a multi-pronged way. Firstly, by implementing complex circuit designs such as **fluxonium, zero-pi** that show inherent protection from noisy environment. Secondly, by utilizing new superconducting material called **tantalum** which has better oxide properties that improves the qubit coherence. Thirdly, by creating **novel circuit elements** which demonstrate protective hamiltonians against the noisy decoherence channels. 
 
+### Publications :
+[[1]](https://www.nature.com/articles/s41598-021-99718-7)  Jatakia, P., Vinjanampathy, S., & Saha, K. (2021). Detecting initial correlations via correlated spectroscopy in hybrid quantum systems. Scientific reports, 11(1), 1-11.
 
 ### Background : 
-I did my **Bachelors** and **Masters** in Engineering Physics is from **Indian Institute of Bombay** with specialization in Nanoscience and a minor degree in Computer Science. If you are curious and want to know more about me, then you can find it here - [my CV]({{ site.url }}/assets/pdf/CV.pdf).
+I did my **Bachelors** and **Masters** in Engineering Physics from **Indian Institute of Bombay** with specialization in Nanoscience and a minor degree in Computer Science. If you are curious and want to know more about me, then you can find it here - [my CV]({{ site.url }}/assets/pdf/CV.pdf).
+
