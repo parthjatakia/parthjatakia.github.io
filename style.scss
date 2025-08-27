@@ -162,6 +162,27 @@ p > img {
   margin: 0 auto;
 }
 
+table.updates-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+table.updates-table th,
+table.updates-table td {
+  padding: 0.5rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid $lightGray;
+}
+
+table.updates-table tr:last-child td {
+  border-bottom: none;
+}
+
+table.updates-table th {
+  color: $darkerGray;
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
