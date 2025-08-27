@@ -6,8 +6,7 @@ The website is uncertain, measurement under process.
 
 ## Recent Updates
 
-{% assign recent_pages = site.pages | sort: 'date' | reverse %}
-{% assign recent_pages = recent_pages | where_exp: 'p', 'p.title and p.url != "/" and p.url != "/404.html"' %}
+{% assign recent_pages = site.pages | where_exp: "p", "p.title and p.url != '/' and p.url != '/404.html'" | sort: "date" | reverse %}
 <table class="updates-table">
   <thead>
     <tr>
