@@ -6,14 +6,16 @@ permalink: /about/
 
 ![Me]({{ site.url }}/assets/images/myphoto.jpg){:width="300px"}
 
-Namaste ! Greetings !
+Namaste! Hi! I’m Parth.
 
-I am a Ph.D. candidate at **Princeton University** in the Department of Electrical and Computer Engineering. I work in Professor Andrew Houck's group ([lab website](https://houcklab.princeton.edu/)) on **superconducting qubits**. We work on the **complete stack** of challenges in the quantum world ; from **improving the coherence** of the qubit to deploying qubits for **simulating novel dynamics**. 
+I’m a PhD student at Princeton, and I spend my days building and studying tiny electrical circuits that behave in very un-everyday ways. When these circuits are cooled to near absolute zero, they can act like quantum objects - the kind people hope to use for quantum computing.
 
-I work on the **coherence challenge** and tackle it in a multi-pronged way. Firstly, by implementing complex circuit designs such as **fluxonium, zero-pi** that show inherent protection from noisy environment. Secondly, by utilizing new superconducting material called **tantalum** which has better oxide properties that improves the qubit coherence. Thirdly, by creating **novel circuit elements** which demonstrate protective hamiltonians against the noisy decoherence channels. 
+A lot of my work is about a surprisingly human problem: how do you “ask” a quantum system what it’s doing without accidentally changing the answer?
 
-### Publications :
-[[1]](https://www.nature.com/articles/s41598-021-99718-7)  Jatakia, P., Vinjanampathy, S., & Saha, K. (2021). Detecting initial correlations via correlated spectroscopy in hybrid quantum systems. Scientific reports, 11(1), 1-11.
+In my experiments, I work with a particular kind of superconducting qubit called fluxonium. One thing that makes it fascinating (and occasionally maddening) is that the act of measurement isn’t passive. The microwave signals we use to read out the qubit can also nudge it into different states - almost like shining a bright flashlight on a delicate animal and watching it move because of the light. I try to understand when and why that happens, how to prevent it when it’s harmful, and how to use it when it’s useful.
 
-### Background : 
-I did my **Bachelors** and **Masters** in Engineering Physics from **Indian Institute of Bombay** with specialization in Nanoscience and a minor degree in Computer Science. If you are curious and want to know more about me, then you can find it here - [my CV]({{ site.url }}/assets/pdf/CV.pdf).
+I also care a lot about the “environment” around these devices: every wire, material, and electromagnetic mode can whisper noise into the circuit. That noise leaves fingerprints in how often the qubit jumps between energy levels. A big part of my research is learning to read those fingerprints - to map what kinds of noise are present, at what frequencies, and what they mean for building better quantum hardware.
+
+On a typical week you’ll find me bouncing between modeling and measurement: writing simulations, debugging code, tuning microwave pulses, staring at plots, and trying to turn messy data into a clean story.
+
+If you’re curious about superconducting qubits, measurement, noise, or just what day-to-day research looks like in a quantum lab, feel free to reach out.
