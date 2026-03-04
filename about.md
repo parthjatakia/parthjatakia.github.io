@@ -17,4 +17,3 @@ I work on the **coherence challenge** and tackle it in a multi-pronged way. Firs
 
 ### Background : 
 I did my **Bachelors** and **Masters** in Engineering Physics from **Indian Institute of Bombay** with specialization in Nanoscience and a minor degree in Computer Science. If you are curious and want to know more about me, then you can find it here - [my CV]({{ site.url }}/assets/pdf/CV.pdf).
-
